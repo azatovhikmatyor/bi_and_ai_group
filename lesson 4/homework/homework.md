@@ -98,8 +98,10 @@ Finally, output all values, and format the output so that it looks like this:
 ******************************
 Total students: 77,285
 Total tuition: $ 271,905
+
 Student mean: 11,040.71
 Student median: 10,566
+
 Tuition mean: $ 38,843.57
 Tuition median: $ 39,849
 ******************************
