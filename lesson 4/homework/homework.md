@@ -1,9 +1,3 @@
-<style>
-    * {
-        text-align: justify;
-    }
-</style>
-
 ### Task 1
 
 Write a script called temperature.py that defines two functions:
