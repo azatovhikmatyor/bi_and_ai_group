@@ -5,6 +5,26 @@
 
 <hr />
 
+### Car class
+
+Write a class named Car that has the following member variables:
+
+* yearModel - an int that holds the car's year model
+* make - a string that holds the make of the car
+* speed - an int that holds the car's current speed
+
+In addition, the class should have the following initializer and other member functions:
+
+* Initializer - the initializer should accept the car's year model and make as arguments. These values should be assigned to the object's yearModel and make member variables. The initializer should also assign 0 to the speed member variables.
+
+* accelerate - The accelerate function should add 5 to the speed member variable each time it is called.
+
+* brake - The brake function should subtract 5 from the speed member variable each time it is called.
+
+Demonstrate the class in a program that creates a Car object, then calls the accelerate function five times. After each call to the accelerate function, get the current speed of the car and display it. Then, call the brake function five times. After each call to the brake function, get the current speed of the car and display it.
+
+<hr />
+
 ### Model a Farm
 
 In this assignment, you’ll create a simplified model of a farm. As you work through this assignment, keep in mind that there are a number of correct answers.
