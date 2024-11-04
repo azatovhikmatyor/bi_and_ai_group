@@ -59,5 +59,38 @@ v1 == Vector(1, 10, 6) # Expected Output: True
 -v1                    # Expected Output: Vector(-1, -10, -6)
 ```
 
+<hr />
 
+### Console Notebook Application
+
+**Objective**: Create a console-based notebook application in Python that allows users to manage notes. Each note should have an ID, text content, and creation date. Notes should be saved to a file so they persist between application sessions.
+
+
+#### Requirements
+
+1. **Basic Operations**:
+    - **Show All Notes**: Display a list of all notes, showing each note's ID and creation date.
+    - **Show Note Details**: Display the details of a specific note by its ID.
+    - **Create Note**: Add a new note with text content and automatically generate an ID and creation date.
+    - **Update Note**: Edit the text of an existing note by its ID.
+    - **Delete Note**: Delete a specific note by its ID.
+
+2. **Note Structure**:
+    - Each note should have the following attributes:
+      - **ID**: A unique identifier for each note (e.g., an auto-incremented integer or a UUID).
+      - **Text**: The content of the note.
+      - **Created Date**: The date and time the note was created.
+
+3. **File Storage**:
+    - Store notes in a file in JSON format (or another suitable format) so that the notes persist even after the application is closed.
+    - When the application starts, load the notes from the file into memory.
+    - When any change is made (add, update, or delete a note), save the updated list of notes back to the file.
+
+4. **Menu and Input**:
+    - The application should display a simple console menu with options for each of the CRUD operations (Create, Read, Update, Delete).
+    - Use functions to handle each operation, making it easier to navigate and maintain the code.
+    - The user should be able to exit the application gracefully.
+
+5. **Error Handling**:
+    - Add error handling for invalid inputs (e.g., non-existent note IDs).
 
