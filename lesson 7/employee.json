@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "is_retired": false
+    },
+    {
+        "id": 2,
+        "name": "Adam",
+        "is_retired": true
+    }
+]
